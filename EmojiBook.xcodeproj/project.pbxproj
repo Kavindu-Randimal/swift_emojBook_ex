@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF2A6D53267869B300E52984 /* EmojiBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6D52267869B300E52984 /* EmojiBookApp.swift */; };
+		DF2A6D55267869B300E52984 /* EmojibookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6D54267869B300E52984 /* EmojibookListView.swift */; };
+		DF2A6D57267869B400E52984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2A6D56267869B400E52984 /* Assets.xcassets */; };
+		DF2A6D5A267869B400E52984 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2A6D59267869B400E52984 /* Preview Assets.xcassets */; };
+		DF2A6DAF2678954000E52984 /* EmojDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6DAE2678954000E52984 /* EmojDetails.swift */; };
+		DF2A6DB22678976F00E52984 /* EmojiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6DB12678976F00E52984 /* EmojiProvider.swift */; };
+		DF2A6DBC2678A39C00E52984 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2A6DBB2678A39B00E52984 /* WidgetKit.framework */; };
+		DF2A6DBE2678A39C00E52984 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2A6DBD2678A39C00E52984 /* SwiftUI.framework */; };
+		DF2A6DC12678A39C00E52984 /* EmojiBook_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6DC02678A39C00E52984 /* EmojiBook_Widget.swift */; };
+		DF2A6DC42678A39E00E52984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2A6DC32678A39E00E52984 /* Assets.xcassets */; };
+		DF2A6DC62678A39E00E52984 /* EmojiBook_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6DC22678A39C00E52984 /* EmojiBook_Widget.intentdefinition */; };
+		DF2A6DC72678A39E00E52984 /* EmojiBook_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6DC22678A39C00E52984 /* EmojiBook_Widget.intentdefinition */; };
+		DF2A6DCA2678A39E00E52984 /* EmojiBook WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DF2A6DB92678A39B00E52984 /* EmojiBook WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF2A6DD92678A56B00E52984 /* EmojiWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6DD82678A56B00E52984 /* EmojiWidgetView.swift */; };
+		DF2A6DDA2678A56B00E52984 /* EmojiWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6DD82678A56B00E52984 /* EmojiWidgetView.swift */; };
+		DF2A6DDD2678A5F300E52984 /* EmojDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6DAE2678954000E52984 /* EmojDetails.swift */; };
+		DF2A6DE02678A5F700E52984 /* EmojiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A6DB12678976F00E52984 /* EmojiProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF2A6DC82678A39E00E52984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2A6D47267869B300E52984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2A6DB82678A39B00E52984;
+			remoteInfo = "EmojiBook WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF2A6DCE2678A39E00E52984 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DF2A6DCA2678A39E00E52984 /* EmojiBook WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF2A6D4F267869B300E52984 /* EmojiBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2A6D52267869B300E52984 /* EmojiBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBookApp.swift; sourceTree = "<group>"; };
+		DF2A6D54267869B300E52984 /* EmojibookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojibookListView.swift; sourceTree = "<group>"; };
+		DF2A6D56267869B400E52984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2A6D59267869B400E52984 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF2A6D5B267869B400E52984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2A6DAE2678954000E52984 /* EmojDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojDetails.swift; sourceTree = "<group>"; };
+		DF2A6DB12678976F00E52984 /* EmojiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiProvider.swift; sourceTree = "<group>"; };
+		DF2A6DB92678A39B00E52984 /* EmojiBook WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EmojiBook WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2A6DBB2678A39B00E52984 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DF2A6DBD2678A39C00E52984 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DF2A6DC02678A39C00E52984 /* EmojiBook_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBook_Widget.swift; sourceTree = "<group>"; };
+		DF2A6DC22678A39C00E52984 /* EmojiBook_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = EmojiBook_Widget.intentdefinition; sourceTree = "<group>"; };
+		DF2A6DC32678A39E00E52984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2A6DC52678A39E00E52984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2A6DD82678A56B00E52984 /* EmojiWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiWidgetView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF2A6D4C267869B300E52984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2A6DB62678A39B00E52984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2A6DBE2678A39C00E52984 /* SwiftUI.framework in Frameworks */,
+				DF2A6DBC2678A39C00E52984 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF2A6D46267869B300E52984 = {
+			isa = PBXGroup;
+			children = (
+				DF2A6D51267869B300E52984 /* EmojiBook */,
+				DF2A6DBF2678A39C00E52984 /* EmojiBook Widget */,
+				DF2A6DBA2678A39B00E52984 /* Frameworks */,
+				DF2A6D50267869B300E52984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF2A6D50267869B300E52984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2A6D4F267869B300E52984 /* EmojiBook.app */,
+				DF2A6DB92678A39B00E52984 /* EmojiBook WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2A6D51267869B300E52984 /* EmojiBook */ = {
+			isa = PBXGroup;
+			children = (
+				DF2A6D52267869B300E52984 /* EmojiBookApp.swift */,
+				DF2A6D54267869B300E52984 /* EmojibookListView.swift */,
+				DF2A6D56267869B400E52984 /* Assets.xcassets */,
+				DF2A6D5B267869B400E52984 /* Info.plist */,
+				DF2A6DAE2678954000E52984 /* EmojDetails.swift */,
+				DF2A6DB12678976F00E52984 /* EmojiProvider.swift */,
+				DF2A6D58267869B400E52984 /* Preview Content */,
+			);
+			path = EmojiBook;
+			sourceTree = "<group>";
+		};
+		DF2A6D58267869B400E52984 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF2A6D59267869B400E52984 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF2A6DBA2678A39B00E52984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF2A6DBB2678A39B00E52984 /* WidgetKit.framework */,
+				DF2A6DBD2678A39C00E52984 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF2A6DBF2678A39C00E52984 /* EmojiBook Widget */ = {
+			isa = PBXGroup;
+			children = (
+				DF2A6DC02678A39C00E52984 /* EmojiBook_Widget.swift */,
+				DF2A6DC22678A39C00E52984 /* EmojiBook_Widget.intentdefinition */,
+				DF2A6DC32678A39E00E52984 /* Assets.xcassets */,
+				DF2A6DC52678A39E00E52984 /* Info.plist */,
+				DF2A6DD82678A56B00E52984 /* EmojiWidgetView.swift */,
+			);
+			path = "EmojiBook Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF2A6D4E267869B300E52984 /* EmojiBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2A6D5E267869B400E52984 /* Build configuration list for PBXNativeTarget "EmojiBook" */;
+			buildPhases = (
+				DF2A6D4B267869B300E52984 /* Sources */,
+				DF2A6D4C267869B300E52984 /* Frameworks */,
+				DF2A6D4D267869B300E52984 /* Resources */,
+				DF2A6DCE2678A39E00E52984 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2A6DC92678A39E00E52984 /* PBXTargetDependency */,
+			);
+			name = EmojiBook;
+			productName = EmojiBook;
+			productReference = DF2A6D4F267869B300E52984 /* EmojiBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF2A6DB82678A39B00E52984 /* EmojiBook WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2A6DCB2678A39E00E52984 /* Build configuration list for PBXNativeTarget "EmojiBook WidgetExtension" */;
+			buildPhases = (
+				DF2A6DB52678A39B00E52984 /* Sources */,
+				DF2A6DB62678A39B00E52984 /* Frameworks */,
+				DF2A6DB72678A39B00E52984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EmojiBook WidgetExtension";
+			productName = "EmojiBook WidgetExtension";
+			productReference = DF2A6DB92678A39B00E52984 /* EmojiBook WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF2A6D47267869B300E52984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DF2A6D4E267869B300E52984 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DF2A6DB82678A39B00E52984 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DF2A6D4A267869B300E52984 /* Build configuration list for PBXProject "EmojiBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF2A6D46267869B300E52984;
+			productRefGroup = DF2A6D50267869B300E52984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF2A6D4E267869B300E52984 /* EmojiBook */,
+				DF2A6DB82678A39B00E52984 /* EmojiBook WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF2A6D4D267869B300E52984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2A6D5A267869B400E52984 /* Preview Assets.xcassets in Resources */,
+				DF2A6D57267869B400E52984 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2A6DB72678A39B00E52984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2A6DC42678A39E00E52984 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF2A6D4B267869B300E52984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2A6DAF2678954000E52984 /* EmojDetails.swift in Sources */,
+				DF2A6DB22678976F00E52984 /* EmojiProvider.swift in Sources */,
+				DF2A6DC72678A39E00E52984 /* EmojiBook_Widget.intentdefinition in Sources */,
+				DF2A6DD92678A56B00E52984 /* EmojiWidgetView.swift in Sources */,
+				DF2A6D55267869B300E52984 /* EmojibookListView.swift in Sources */,
+				DF2A6D53267869B300E52984 /* EmojiBookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2A6DB52678A39B00E52984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2A6DDA2678A56B00E52984 /* EmojiWidgetView.swift in Sources */,
+				DF2A6DDD2678A5F300E52984 /* EmojDetails.swift in Sources */,
+				DF2A6DE02678A5F700E52984 /* EmojiProvider.swift in Sources */,
+				DF2A6DC62678A39E00E52984 /* EmojiBook_Widget.intentdefinition in Sources */,
+				DF2A6DC12678A39C00E52984 /* EmojiBook_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF2A6DC92678A39E00E52984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2A6DB82678A39B00E52984 /* EmojiBook WidgetExtension */;
+			targetProxy = DF2A6DC82678A39E00E52984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF2A6D5C267869B400E52984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF2A6D5D267869B400E52984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF2A6D5F267869B400E52984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EmojiBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 48689QGL3Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EmojiBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.EmojiBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF2A6D60267869B400E52984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EmojiBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 48689QGL3Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EmojiBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.EmojiBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF2A6DCC2678A39E00E52984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48689QGL3Z;
+				INFOPLIST_FILE = "EmojiBook Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.EmojiBook.EmojiBook-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF2A6DCD2678A39E00E52984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48689QGL3Z;
+				INFOPLIST_FILE = "EmojiBook Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.EmojiBook.EmojiBook-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF2A6D4A267869B300E52984 /* Build configuration list for PBXProject "EmojiBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2A6D5C267869B400E52984 /* Debug */,
+				DF2A6D5D267869B400E52984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2A6D5E267869B400E52984 /* Build configuration list for PBXNativeTarget "EmojiBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2A6D5F267869B400E52984 /* Debug */,
+				DF2A6D60267869B400E52984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2A6DCB2678A39E00E52984 /* Build configuration list for PBXNativeTarget "EmojiBook WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2A6DCC2678A39E00E52984 /* Debug */,
+				DF2A6DCD2678A39E00E52984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF2A6D47267869B300E52984 /* Project object */;
+}
